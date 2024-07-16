@@ -1,3 +1,7 @@
+![Screenshot 2024-07-16 at 16 35 58](https://github.com/user-attachments/assets/6be7f28b-a9df-4ec2-ad48-41f2b7fefa52)
+
+
+
 # Tic-Tac-Toe
 Making a Tic Tac Toe game you can play in your browser!
 
@@ -50,6 +54,10 @@ The game allows two players to play Tic Tac Toe in turns. Player one uses "X" an
 - `setBoardHoverClass()`: Adds the appropriate class to the board to indicate whose turn it is.
 - `checkWin(currentClass)`: Checks if the current player has a winning combination.
 
+  Example of Draw and Win
+![Screenshot 2024-07-16 at 16 36 14](https://github.com/user-attachments/assets/0992b9a8-4d76-4c04-ab5e-c398f1ab082e)
+![Screenshot 2024-07-16 at 16 36 28](https://github.com/user-attachments/assets/f4142da0-390d-4a21-ab8c-a7ea1de14bec)
+![Uploading Screenshot 2024-07-16 at 16.37.00.png…]()
 ## Example Code
 
 ```javascript
