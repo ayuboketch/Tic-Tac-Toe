@@ -9,9 +9,10 @@ let { CleanWebpackPlugin } = require("clean-webpack-plugin");
 module.exports = {
   mode: "production",
   entry: "./src/index.js",
+  mode: "production",
   output: {
     path: path.resolve(__dirname, "dist"),
-    filename: "bundle.js",
+    filename: "script.js",
   },
   module: {
     rules: [
@@ -43,5 +44,8 @@ module.exports = {
   ],
   optimization: {
     minimizer: [new TerserPlugin(), new CssMinimizerPlugin()],
+  },
+  stats: {
+    children: true,
   },
 };
